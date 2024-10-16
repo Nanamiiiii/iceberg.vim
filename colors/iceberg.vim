@@ -70,15 +70,15 @@ if &background == 'light'
   hi SpellLocal ctermbg=116 ctermfg=237 gui=undercurl guifg=NONE guisp=#3f83a6
   hi SpellRare ctermbg=110 ctermfg=237 gui=undercurl guifg=NONE guisp=#7759b4
   hi Statement ctermfg=25 gui=NONE guifg=#2d539e
-  hi StatusLine cterm=reverse ctermbg=252 ctermfg=243 gui=reverse guibg=#e8e9ec guifg=#757ca3 term=reverse
-  hi StatusLineTerm cterm=reverse ctermbg=252 ctermfg=243 gui=reverse guibg=#e8e9ec guifg=#757ca3 term=reverse
-  hi StatusLineNC cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guibg=#8b98b6 guifg=#cad0de
-  hi StatusLineTermNC cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guibg=#8b98b6 guifg=#cad0de
+  hi StatusLine cterm=NONE ctermbg=252 ctermfg=243 gui=NONE guibg=#e8e9ec guifg=#757ca3 term=NONE
+  hi StatusLineTerm cterm=NONE ctermbg=252 ctermfg=243 gui=NONE guibg=#e8e9ec guifg=#757ca3 term=NONE
+  hi StatusLineNC cterm=NONE ctermbg=244 ctermfg=251 gui=NONE guibg=#8b98b6 guifg=#cad0de
+  hi StatusLineTermNC cterm=NONE ctermbg=244 ctermfg=251 gui=NONE guibg=#8b98b6 guifg=#cad0de
   hi StorageClass ctermfg=25 guifg=#2d539e
   hi String ctermfg=31 guifg=#3f83a6
   hi Structure ctermfg=25 guifg=#2d539e
   hi TabLine cterm=NONE ctermbg=251 ctermfg=244 gui=NONE guibg=#cad0de guifg=#8b98b6
-  hi TabLineFill cterm=reverse ctermbg=244 ctermfg=251 gui=reverse guibg=#8b98b6 guifg=#cad0de
+  hi TabLineFill cterm=NONE ctermbg=244 ctermfg=251 gui=NONE guibg=#8b98b6 guifg=#cad0de
   hi TabLineSel cterm=NONE ctermbg=254 ctermfg=237 gui=NONE guibg=#e8e9ec guifg=#606374
   hi TermCursorNC ctermbg=244 ctermfg=254 guibg=#8389a3 guifg=#e8e9ec
   hi Title ctermfg=130 gui=NONE guifg=#c57339
@@ -204,15 +204,15 @@ else
   hi SpellLocal ctermbg=23 ctermfg=252 gui=undercurl guifg=NONE guisp=#89b8c2
   hi SpellRare ctermbg=97 ctermfg=252 gui=undercurl guifg=NONE guisp=#a093c7
   hi Statement ctermfg=110 gui=NONE guifg=#84a0c6
-  hi StatusLine cterm=reverse ctermbg=234 ctermfg=245 gui=reverse guibg=#17171b guifg=#818596 term=reverse
-  hi StatusLineTerm cterm=reverse ctermbg=234 ctermfg=245 gui=reverse guibg=#17171b guifg=#818596 term=reverse
-  hi StatusLineNC cterm=reverse ctermbg=238 ctermfg=233 gui=reverse guibg=#3e445e guifg=#0f1117
-  hi StatusLineTermNC cterm=reverse ctermbg=238 ctermfg=233 gui=reverse guibg=#3e445e guifg=#0f1117
+  hi StatusLine cterm=NONE ctermbg=234 ctermfg=245 gui=NONE guibg=#17171b guifg=#818596 term=NONE
+  hi StatusLineTerm cterm=NONE ctermbg=234 ctermfg=245 gui=NONE guibg=#17171b guifg=#818596 term=NONE
+  hi StatusLineNC cterm=NONE ctermbg=238 ctermfg=233 gui=NONE guibg=#3e445e guifg=#0f1117
+  hi StatusLineTermNC cterm=NONE ctermbg=238 ctermfg=233 gui=NONE guibg=#3e445e guifg=#0f1117
   hi StorageClass ctermfg=110 guifg=#84a0c6
   hi String ctermfg=109 guifg=#89b8c2
   hi Structure ctermfg=110 guifg=#84a0c6
   hi TabLine cterm=NONE ctermbg=233 ctermfg=238 gui=NONE guibg=#0f1117 guifg=#3e445e
-  hi TabLineFill cterm=reverse ctermbg=238 ctermfg=233 gui=reverse guibg=#3e445e guifg=#0f1117
+  hi TabLineFill cterm=NONE ctermbg=238 ctermfg=233 gui=NONE guibg=#3e445e guifg=#0f1117
   hi TabLineSel cterm=NONE ctermbg=234 ctermfg=252 gui=NONE guibg=#161821 guifg=#9a9ca5
   hi TermCursorNC ctermbg=242 ctermfg=234 guibg=#6b7089 guifg=#161821
   hi Title ctermfg=216 gui=NONE guifg=#e2a478
